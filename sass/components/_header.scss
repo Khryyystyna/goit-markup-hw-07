@@ -1,5 +1,5 @@
 .header {
-    background: var(--background-white);
+    background: $background-white;
     border-bottom: 1px solid #ECECEC;
     .container {
             display: flex;
@@ -39,7 +39,7 @@
     height: 4px;
     position: absolute;
     bottom: -33px;
-    background: var(--accent-color);
+    background: $accent-color;
     border-radius: 2px;
 }
 
@@ -52,7 +52,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 }
 
 .logo-blue {
@@ -61,7 +61,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .nav__link {
@@ -70,7 +70,7 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 }
 
 .header-list-info {
@@ -89,7 +89,7 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--title-text-color);
+    color: $title-text-color;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,16 +97,16 @@
 
     &:hover,
     &:focus {
-        color: var(--accent-color);
+        color: $accent-color;
         }
 }
 
 .current {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 
 .info-list__item:hover,
 .info-list__item:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }

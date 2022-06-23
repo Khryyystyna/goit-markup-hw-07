@@ -24,7 +24,7 @@
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--accent-white-color);
+    color: $accent-white-color;
 }
 
 .hero__button {
@@ -43,7 +43,7 @@
     padding: 10px 32px;
     min-width: 200px;
 
-    color: var(--accent-white-color);
-    background: var(--accent-color);
+    color: $accent-white-color;
+    background: $accent-color;
     border: 1px solid transparent;
 }

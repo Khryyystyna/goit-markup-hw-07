@@ -1,5 +1,5 @@
 .team {
-    background: var(--background-top-color);
+    background: $background-top-color;
 }
 
 .team__title {
@@ -7,7 +7,7 @@
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 }
 
 .card-team__text {
@@ -16,13 +16,13 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 }
 
 .card-team__position {
     font-size: 16px;
     line-height: 1.19;
-    color: var(--title-text-color);
+    color: $title-text-color;
     margin-bottom: 16px;
 }
 
@@ -70,8 +70,8 @@
 
     &:hover,
     &:focus {
-        background-color: var(--accent-color);
-        fill: var(--background-white);
+        background-color: $accent-color;
+        fill: $background-white;
     }
 }
 
@@ -82,5 +82,5 @@
     box-shadow: var(--card-shadow);
     border-radius: 0px 0px 4px 4px;
     overflow: hidden;
-    background: var(--background-white);
+    background: $background-white;
 }

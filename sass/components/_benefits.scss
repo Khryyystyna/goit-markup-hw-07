@@ -17,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--background-top-color);
+    background-color: $background-top-color;
     width: 270px;
     height: 120px;
 }
@@ -30,10 +30,10 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 }
 
 .ben-list__text {
     line-height: 1.71;
-    color: var(--title-text-color);
+    color: $title-text-color;
 }

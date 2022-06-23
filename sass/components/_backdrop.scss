@@ -12,7 +12,7 @@
     padding: 40px;
     min-width: 528px;
     min-height: 581px;
-    background-color: var(--background-white);
+    background-color: $background-white;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,7 +41,7 @@
 
     &:hover,
     &:focus {
-            fill: var(--accent-color);
+            fill: $accent-color;
         }
 }
 
@@ -59,7 +59,7 @@
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     margin-bottom: 12px;
 }
 
@@ -75,15 +75,15 @@
 
     &:focus,
     &:hover {
-            border-color: var(--accent-color);
+            border-color: $accent-color;
             transition: border 250ms var(--time-transition);
         }
 
     &:focus+.icon-black {
-            fill: var(--accent-color);
+            fill: $accent-color;
         }
     &:hover+.icon-black {
-            fill: var(--accent-color);
+            fill: $accent-color;
         }
 }
 
@@ -102,7 +102,7 @@
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
-    color: var(--title-text-color);
+    color: $title-text-color;
 
 }
 
@@ -130,7 +130,7 @@
 
     &:focus,
     &:hover {
-            border-color: var(--accent-color);
+            border-color: $accent-color;
         }
 }
 
@@ -145,14 +145,14 @@
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
+    color: $title-text-color;
     display: flex;
     align-items: center;
     position: relative;
 }
 
 .modal-field__check-link {
-    color: var(--accent-color);
+    color: $accent-color;
     margin-left: 3px;
 }
 
@@ -160,7 +160,7 @@
     content: "";
     width: 16px;
     height: 15px;
-    border: 2px solid var(--primary-text-color);
+    border: 2px solid $primary-text-color;
     margin-right: 9px;
     display: flex;
     align-items: center;
@@ -168,16 +168,16 @@
 }
 
 .icon-gal {
-    fill: var(--background-white);
+    fill: $background-white;
 }
 
 .modal-field__modal-check:checked+.modal-field__check-text span {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     border: none;
 }
 
 .icon-gal:checked+.modal-field__check-text .icon-gal {
-    fill: var(--background-white);
+    fill: $background-white;
 }
 
 .modal-form__btn {
@@ -189,10 +189,10 @@
     height: 50px;
     font-weight: 700;
     letter-spacing: 0.06em;
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: var(--background-white);
+    color: $background-white;
     border: none;
     margin-top: 30px;
     margin-left: auto;
